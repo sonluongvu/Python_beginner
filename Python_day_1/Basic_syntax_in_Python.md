@@ -1,7 +1,7 @@
-#Basic Syntax in Python:
+# Basic Syntax in Python:
 Contains all of the note and basic syntax used in Python practice at day 1
 
-##Print
+## Print
 
 **Print** will print the result out
 
@@ -17,7 +17,7 @@ s = "Printing using variables"
 print s
 ```
 
-##Rule for Identifiers:
+## Rule for Identifiers:
 
 - Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
 
