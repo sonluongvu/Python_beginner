@@ -1,10 +1,10 @@
 #Data Type Conversion
 Contains some functions used in conversing data type
-
+| Name | Functions |
 | int(x [,base])       | Converts x to an integer, base specifies the base if x is a string|
 | long(x [,base])      | Converts x to a long integer. base specifies the base if x is a string|
 | float(x)             | Converts x to a floating-point number|
-| complex(real [,imag])| Creates a complex number|
+| complex(real [,imag]) | Creates a complex number|
 | str(x)               | Converts object x to a string representation|
 | repr(x)              | Converts object x to an expression string|
 | eval(str)            | Evaluates a string and returns an object|
