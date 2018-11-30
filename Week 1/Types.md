@@ -10,7 +10,7 @@ To determine the type we can use function type(). For example:
 
 Some common types included:
 
-| Type name | Type Discription | Example |
+| Type name | Type Description | Example |
 | --------- |:----------------:|:-------:|
 | Int       | Integer number   |  1,2,3  |
 | float     | Real number      |  21.213 |
