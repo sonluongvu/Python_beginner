@@ -1,2 +1,5 @@
-# Python_beginner
-Python_beginner contains all the necessary files that may be useful when start studying Python.
+# Python_for_Data_Science
+
+Python for Data Science is a course offered by IBM in [Coursera.org](Coursera.org).
+
+Here is my personal note in the course.
