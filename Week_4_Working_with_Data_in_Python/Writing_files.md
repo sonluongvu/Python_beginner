@@ -40,5 +40,47 @@ We can write a list to a **.txt** file by:
 
 ```Python
 Lines=['This is line A\n','This is line B\n','This is line C\n']
-with open()
+with open('Example2.txt','w') as writefile:
+    for line in Lines:
+        print line
+        writefile.write(line)
 ```
+
+We can verify the file is written by reading it and printing out of the values:
+
+```Python
+with open('Example2.txt','r') as testwritefile:
+    print(testwritefile.read())
+```
+
+We can again append to the file by changing the second parameter to **a**. This adds the code:
+
+```Python
+with  open('Example2.txt','a') as testwritefile:
+    testwritefile.write('This is line D\n')
+```
+
+We can see the results of appending the file:
+
+```Python
+with open('Example2.txt') as testwritefile:
+    print(testwritefile.read())
+```
+
+## Copy a file
+
+```Python
+with open('Example2.txt','r') as readfile:
+    with open('Example3.txt','w') as writefile:
+        for line in readlife:
+            writefile.write(line)
+```
+
+We can read the file to see if everything works:
+
+```Python
+with open('Example3.txt','r') as testwritefile:
+    print testwritefile.read()
+```
+
+After reading files, we can also write data into files and save them in different file formats like **.txt,.csv,.xls(for excel files) etc.** 
